@@ -1,0 +1,16 @@
+@font-face{
+    font-family: metropolis-b;
+    src: url(../font/Metropolis-Black.otf);
+}
+@font-face{
+    font-family: metropolis-l;
+    src: url(../font/Metropolis-light.otf);
+}
+@font-face{
+    font-family: metropolis-m;
+    src: url(../font/Metropolis-Medium.otf);
+}
+
+$ml: metropolis-l;
+$mb: metropolis-b;
+$mm:metropolis-m;
