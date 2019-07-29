@@ -10,7 +10,8 @@ Vue.component('slider-wils',{
             <a data-target="#sliderPrincipal" data-slide-to="2" class="  slider-indicator fas fa-circle"></a> <br />
             <a data-target="#sliderPrincipal" data-slide-to="3" class="  slider-indicator fas fa-circle"></a> <br />
             <a data-target="#sliderPrincipal" data-slide-to="4" class="  slider-indicator fas fa-circle"></a> <br />
-        </div>
+            <a data-target="#sliderPrincipal" data-slide-to="5" class="  slider-indicator fas fa-circle"></a> <br />
+            </div>
         <div class="carousel-inner">
         <div  class="carousel-item active">
                 <img class="d-block w-100" src="assets/img/gallerys/cover.png" alt="Titulo">
@@ -112,13 +113,6 @@ Vue.component('slider-wils',{
     </div>
 `
 });
-
-var app = new Vue({
-    el: '#app',
-    data: {
-      message: 'Hello Vue!'
-    }
-  });
 
   
 
