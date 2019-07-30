@@ -3120,18 +3120,18 @@
 	Navigation.prototype.draw = function() {
 		var difference,
 			settings = this._core.settings,
-			disabled = this._core.items().length <= settings.items,
+			// disabled = this._core.items().length <= settings.items,
 			index = this._core.relative(this._core.current()),
 			loop = settings.loop || settings.rewind;
 
-		this._controls.$relative.toggleClass('disabled', !settings.nav || disabled);
+		this._controls.$relative.toggleClass('disabled', !settings.nav);
 
 		if (settings.nav) {
 			this._controls.$previous.toggleClass('disabled', !loop && index <= this._core.minimum(true));
 			this._controls.$next.toggleClass('disabled', !loop && index >= this._core.maximum(true));
 		}
 
-		this._controls.$absolute.toggleClass('disabled', !settings.dots || disabled);
+		this._controls.$absolute.toggleClass('disabled', !settings.dots);
 
 		if (settings.dots) {
 			difference = this._pages.length - this._controls.$absolute.children().length;
