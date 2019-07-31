@@ -1,0 +1,205 @@
+// resoluciones locales
+
+.navbar{
+    ul{
+        li{
+            @media screen and (max-width: 1100px){
+                margin: 0 10px;
+            }
+        }  
+    }
+}
+
+.header-up{
+    @media screen and (max-width: 991px){
+        padding:  30px 100px;
+        .logo-header{
+            display: block;
+            margin: 15px auto !important;
+            img{
+                display: block;
+                margin: 0 auto;
+            }
+        }
+        .state-look{
+            align-items: center;
+        }    
+    }  
+    @media screen and (max-width: 520px){
+        padding:  30px 50px; 
+    }    
+}
+
+.carousel-item{
+    @media screen and (max-width: 768px){
+        height: 380px !important;  
+        img{
+            width: 100% !important;
+            height: 100% !important;
+            object-fit: cover !important;
+        }
+    }
+    @media screen and (max-width: 600px){
+    }
+    .carousel-caption {
+        @media screen and (max-width: 768px){
+            h2{
+                font-size: 56px;
+            }
+            top: 30px;
+        } 
+        @media screen and (max-width: 600px){
+                margin-left: 40px !important;
+                h2{
+                    font-size: 48px;
+                }
+                top: 20px;
+                p{
+                    font-size: 14px;
+                }
+        }  
+        @media screen and (max-width: 425px){
+                top: 20px;
+                margin-left: 20px !important;
+                h2{
+                    font-size: 30px !important;
+                }
+                .btn{
+                    height: 39px;
+                    font-size: 15px;
+                }
+                p{
+                    font-size: 14px;
+                }
+        } 
+    } 
+}
+
+.vineta{
+    .box-arrow{
+        @media screen and (max-width: 425px){
+            width: 320px;
+            h5{
+                font-size: 11px !important;
+                margin-right: 0;
+            }
+    } 
+}
+}
+
+.news{
+    .news-card{
+        @media screen and (max-width:991px){
+            display: none;
+        }
+    }
+    .news-card-2{
+        @media screen and (max-width:1540px){
+            .head{
+                height: 310px;
+                .child-1{
+                    img{
+                        max-width: 288px;
+                        height: 100%;
+                        object-fit: cover;
+                        @media screen and (max-width:1408px){
+                            width: 200px;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+            }
+        }
+        @media screen and (max-width:1200px){
+            .head{
+                height: auto;
+                flex-direction: column;
+                flex-flow: column wrap;
+                .child-1{
+                    img{
+                        max-width: 100%;
+                        width: 100% !important;
+                    }
+                }
+                .child-2{
+                    margin-top: 15px;
+                    padding-left: 0px;
+                    height: 230px;
+                }
+            }
+        }
+        @media screen and (max-width:991px){
+            flex-direction: row;
+            flex-flow: row wrap;
+            flex: 1 1 auto;
+            float: left;
+            width: 45%;
+            margin-right: 25px;
+            .btn-hv{
+                position: relative !important;
+                .btn{
+                    width: 100%;
+                }
+            }
+        }
+        @media screen and (max-width:620px){
+            float: none;;
+            width: 100%;
+        }
+    }
+    @media screen and (max-width:991px){
+        h1{
+            font-size: 26px;
+        }
+        position: relative;
+        .col-resp{
+            margin-left: 22px;
+            @media screen and (max-width:620px){
+                margin-left: 0px;
+            }
+        }
+        .embed-twiiter{
+            display: none;
+        }
+        .title-button {
+           padding-bottom: 15px;
+           flex-direction: column;
+           .btn{
+               width: 100%;
+           }
+        }
+    }
+}
+.estadisticas-regulatorias{
+    @media screen and (max-width:991px){
+        .title{
+            h2{
+                font-size: 20px;
+            }
+            .big-version{
+                font-size: 26px;  
+                margin-top: 0px;          }
+        }
+        .btn{
+            width: 100% !important;
+        }
+
+    }
+
+}
+
+.news-section{
+    .card-info{
+        @media screen and (max-width:991px){
+            &:hover{
+                transform: scale(1.0) !important;
+            }
+        } 
+        @media screen and (max-width:768px){
+            
+        }   
+    }
+}
+
+

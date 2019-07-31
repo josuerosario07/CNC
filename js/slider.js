@@ -5,12 +5,14 @@ Vue.component('slider-wils',{
     
     <div id="sliderPrincipal" class="carousel slide" data-ride="carousel">
         <div class="slider-indicator-cont">
-            <a data-target="#sliderPrincipal" data-slide-to="0" class=" active slider-indicator fas fa-circle"></a> <br />
-            <a data-target="#sliderPrincipal" data-slide-to="1" class="  slider-indicator fas fa-circle"></a> <br />
-            <a data-target="#sliderPrincipal" data-slide-to="2" class="  slider-indicator fas fa-circle"></a> <br />
-            <a data-target="#sliderPrincipal" data-slide-to="3" class="  slider-indicator fas fa-circle"></a> <br />
-            <a data-target="#sliderPrincipal" data-slide-to="4" class="  slider-indicator fas fa-circle"></a> <br />
-            <a data-target="#sliderPrincipal" data-slide-to="5" class="  slider-indicator fas fa-circle"></a> <br />
+            <ul>
+            <li><a data-target="#sliderPrincipal" data-slide-to="0" class=" active slider-indicator fas fa-circle"></a> </li>
+            <li><a data-target="#sliderPrincipal" data-slide-to="1" class=" active slider-indicator fas fa-circle"></a> </li>
+            <li><a data-target="#sliderPrincipal" data-slide-to="2" class=" active slider-indicator fas fa-circle"></a> </li>
+            <li><a data-target="#sliderPrincipal" data-slide-to="3" class=" active slider-indicator fas fa-circle"></a> </li>
+            <li><a data-target="#sliderPrincipal" data-slide-to="4" class=" active slider-indicator fas fa-circle"></a> </li>
+            <li><a data-target="#sliderPrincipal" data-slide-to="5" class=" active slider-indicator fas fa-circle"></a> </li>
+            </ul>
             </div>
         <div class="carousel-inner">
         <div  class="carousel-item active">

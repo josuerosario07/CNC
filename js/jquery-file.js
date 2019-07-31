@@ -31,19 +31,14 @@ $(document).ready(function(){
                 items:4
             }
         }
-    })
+    });
+    $('[data-toggle="tooltip"]').tooltip()
 
     
   });
 
-//   $(document).ready(function(){
-
-
-
-    
-//   });
-
   AOS.init();
+
 
 
 
