@@ -39,6 +39,17 @@ $(document).ready(function(){
 
   AOS.init();
 
+  let divJdn = document.getElementById("bigSee");
+  let btn = divJdn.getElementsByClassName("card-info");
+  for (var i=0; i<btn.length; i++){
+      btn[i].addEventListener("click", function(){
+          var cambio  = document.getElementsByClassName("active-txt");
+          if(cambio.length > 0){
+            cambio[0].className = cambio[0].className.replace("active-txt", " ");
+          }
+          this.className +=" active-txt";
+      });
+  }
 
 
 

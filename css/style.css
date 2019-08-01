@@ -17,6 +17,19 @@ body {
   font-family: metropolis-l;
   font-weight: bold; }
 
+.active-txt {
+  transform: scale(1.1) !important;
+  z-index: 999 !important;
+  background-color: #E49C24 !important;
+  border-left: solid 8px black !important;
+  -webkit-box-shadow: 11px 13px 21px -1px rgba(0, 0, 0, 0.41) !important;
+  -moz-box-shadow: 11px 13px 21px -1px rgba(0, 0, 0, 0.41) !important;
+  box-shadow: 11px 13px 21px -1px rgba(0, 0, 0, 0.41) !important; }
+  .active-txt .btn {
+    background: white !important; }
+  .active-txt:hover {
+    width: 100% !important; }
+
 .btn-guest {
   background-color: #E49C24;
   border: none;
@@ -403,12 +416,13 @@ body {
     .news-section .card-info:hover:before {
       right: 0; }
     .news-section .card-info:hover {
-      transform: scale(1.1) !important;
+      width: 105%;
       border-left: solid 8px black;
       -webkit-box-shadow: 11px 13px 21px -1px rgba(0, 0, 0, 0.41);
       -moz-box-shadow: 11px 13px 21px -1px rgba(0, 0, 0, 0.41);
       box-shadow: 11px 13px 21px -1px rgba(0, 0, 0, 0.41);
-      z-index: 9; }
+      transition: all 0.5s !important;
+      z-index: 999; }
       .news-section .card-info:hover .btn {
         color: #E49C24;
         background-color: white; }
