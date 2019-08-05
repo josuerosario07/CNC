@@ -675,10 +675,10 @@ body {
   .copy .txt p {
     margin-bottom: 0; }
 
-.parallax .container .all-side {
+.parallax .all-side {
   display: flex;
   flex-direction: row;
-  flex-flow: row wrap; }
+  flex-flow: row; }
 
 @media screen and (max-width: 1100px) {
   .navbar ul li {

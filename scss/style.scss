@@ -848,10 +848,10 @@ color: $yellowCnc !important;
 }
 
 .parallax{
-   .container .all-side{
+   .all-side{
     display: flex;
     flex-direction: row;
-    flex-flow: row wrap;
+    flex-flow: row ;
    }
 }
 
