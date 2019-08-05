@@ -580,10 +580,11 @@ color: $yellowCnc !important;
            height: 40px;
            border-radius: 0;
            border: none;
-           background: black;
+           background: white !important;
            color: $yellowCnc;
            font-weight: bold;
            transition: 0.3s;
+           font-family: $mm;
            &:hover{
                background-color: black;
                color: $yellowCnc;
@@ -687,10 +688,14 @@ color: $yellowCnc !important;
         img{
             width: 100%;
         }
-        .btn{
-            width: 80%;
-            height: 36px;
-            font-family: $mm;
+        .btn-alone{
+            width: 386px;
+            height: 67px;
+            font-family: $mb;
+            color: white;
+            &::before{
+                height: 67px;
+            }
         }
         .news-card-2{
             margin-bottom: 30px;
@@ -732,7 +737,7 @@ color: $yellowCnc !important;
 }
 
 .organizaciones{
-    background-color: $carousel;
+    background-color: $yellowCnc;
     padding: 30px;
     .title-box{
         width: 100%;
@@ -840,6 +845,14 @@ color: $yellowCnc !important;
             margin-bottom: 0;
         }
     }
+}
+
+.parallax{
+   .container .all-side{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+   }
 }
 
 @import 'responsive';

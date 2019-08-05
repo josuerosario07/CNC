@@ -472,10 +472,11 @@ body {
       height: 40px;
       border-radius: 0;
       border: none;
-      background: black;
+      background: white !important;
       color: #E49C24;
       font-weight: bold;
-      transition: 0.3s; }
+      transition: 0.3s;
+      font-family: metropolis-m; }
       .values .title-button .btn:hover {
         background-color: black;
         color: #E49C24;
@@ -557,10 +558,13 @@ body {
       font-size: 35px; }
     .about-cnc .container img {
       width: 100%; }
-    .about-cnc .container .btn {
-      width: 80%;
-      height: 36px;
-      font-family: metropolis-m; }
+    .about-cnc .container .btn-alone {
+      width: 386px;
+      height: 67px;
+      font-family: metropolis-b;
+      color: white; }
+      .about-cnc .container .btn-alone::before {
+        height: 67px; }
     .about-cnc .container .news-card-2 {
       margin-bottom: 30px; }
       .about-cnc .container .news-card-2 .head {
@@ -589,7 +593,7 @@ body {
             bottom: 0; }
 
 .organizaciones {
-  background-color: #949494;
+  background-color: #E49C24;
   padding: 30px; }
   .organizaciones .title-box {
     width: 100%;
@@ -670,6 +674,11 @@ body {
   text-align: center; }
   .copy .txt p {
     margin-bottom: 0; }
+
+.parallax .container .all-side {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap; }
 
 @media screen and (max-width: 1100px) {
   .navbar ul li {
