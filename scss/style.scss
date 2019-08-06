@@ -147,6 +147,7 @@ color: $yellowCnc !important;
             -moz-osx-font-smoothing: grayscale;
             position: relative;
             overflow: hidden;
+            z-index: 9;
             &:before {
               content: "";
               position: absolute;
@@ -170,10 +171,15 @@ color: $yellowCnc !important;
                 color: black !important;
                 transition: 0.2s;
                 font-family: $ml;
+                padding-bottom: 7px;
                 &:hover{
                     color: white !important;
                 }
             }
+        }
+        .active{
+            border-bottom: solid 3px white;
+
         }
         
     }
@@ -852,7 +858,128 @@ color: $yellowCnc !important;
     display: flex;
     flex-direction: row;
     flex-flow: row ;
+    .sides{
+        padding: 75px;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        h4{
+            font-size: 41px;
+            font-family: $ml;
+            color: white;
+        }
+        h3{
+            font-family: $mb;
+            font-size: 71px;
+            color: white;
+        }
+        p{
+            font-size: 20px;
+            font-family: $ml;
+            color: white;
+        }
+    }
+    .left-side{
+      background-image: url(../assets/img/parallax-1.jpg);
+    }
+    .right-side{
+        background-image: url(../assets/img/paralllax-2.jpg);
+      }
    }
+}
+
+.definition{
+    position: relative;
+    min-height: 792px;
+   
+    .title{
+        padding-top: 22px;
+    }
+    p{
+        font-size: 18px;
+    }
+    .info-img{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        flex-flow: row;
+        align-items: center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        .txt{
+            background-color: $yellowCnc;
+            padding: 44px;
+            min-height: 213px;
+
+            p{
+                color: white;
+                font-family: $mm;
+            }
+        }
+    }
+    .card{
+        padding: 35px;
+        .tag{
+            background-color: $yellowCnc;
+            padding: 7px 14px;
+            position: absolute;
+            top: 35px;
+            right: 35px;
+        }
+        img{
+            width: 100%;
+            height: 318px;
+            object-fit: cover;
+        }
+        .card-body{
+            padding-left: 0;
+            padding-right: 0;
+            text-align: justify;
+        }
+    }
+}
+.tag-caption{
+    position: absolute;
+    top: 210px;
+    color: white;
+    font-size: 12px;
+    padding: 15px;
+}
+
+.slide-noticas{
+    .carousel-item{
+        .carousel-caption {
+            top: initial;
+            bottom: 35px ;
+            h2{
+                font-size: 50px !important;
+            }
+            ul{
+                li{
+                    display: inline-block;
+                    margin-right: 20px;
+                    list-style-type: none;
+                }
+            }
+        }
+    }
+}
+
+
+.posts{
+    margin-top: 40px;
+    .container .item{
+        position: relative;
+        img{
+            width: 100%;
+        }
+        p {
+            position: absolute;
+            bottom: 20px;
+            left: 25px;
+        }
+    }
 }
 
 @import 'responsive';

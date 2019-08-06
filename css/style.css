@@ -123,7 +123,8 @@ body {
       backface-visibility: hidden;
       -moz-osx-font-smoothing: grayscale;
       position: relative;
-      overflow: hidden; }
+      overflow: hidden;
+      z-index: 9; }
       .navbar ul li:before {
         content: "";
         position: absolute;
@@ -144,9 +145,12 @@ body {
       .navbar ul li a {
         color: black !important;
         transition: 0.2s;
-        font-family: metropolis-l; }
+        font-family: metropolis-l;
+        padding-bottom: 7px; }
         .navbar ul li a:hover {
           color: white !important; }
+    .navbar ul .active {
+      border-bottom: solid 3px white; }
 
 .carousel-item {
   height: 600px !important; }
@@ -679,6 +683,95 @@ body {
   display: flex;
   flex-direction: row;
   flex-flow: row; }
+  .parallax .all-side .sides {
+    padding: 75px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; }
+    .parallax .all-side .sides h4 {
+      font-size: 41px;
+      font-family: metropolis-l;
+      color: white; }
+    .parallax .all-side .sides h3 {
+      font-family: metropolis-b;
+      font-size: 71px;
+      color: white; }
+    .parallax .all-side .sides p {
+      font-size: 20px;
+      font-family: metropolis-l;
+      color: white; }
+  .parallax .all-side .left-side {
+    background-image: url(../assets/img/parallax-1.jpg); }
+  .parallax .all-side .right-side {
+    background-image: url(../assets/img/paralllax-2.jpg); }
+
+.definition {
+  position: relative;
+  min-height: 792px; }
+  .definition .title {
+    padding-top: 22px; }
+  .definition p {
+    font-size: 18px; }
+  .definition .info-img {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+    .definition .info-img .txt {
+      background-color: #E49C24;
+      padding: 44px;
+      min-height: 213px; }
+      .definition .info-img .txt p {
+        color: white;
+        font-family: metropolis-m; }
+  .definition .card {
+    padding: 35px; }
+    .definition .card .tag {
+      background-color: #E49C24;
+      padding: 7px 14px;
+      position: absolute;
+      top: 35px;
+      right: 35px; }
+    .definition .card img {
+      width: 100%;
+      height: 318px;
+      object-fit: cover; }
+    .definition .card .card-body {
+      padding-left: 0;
+      padding-right: 0;
+      text-align: justify; }
+
+.tag-caption {
+  position: absolute;
+  top: 210px;
+  color: white;
+  font-size: 12px;
+  padding: 15px; }
+
+.slide-noticas .carousel-item .carousel-caption {
+  top: initial;
+  bottom: 35px; }
+  .slide-noticas .carousel-item .carousel-caption h2 {
+    font-size: 50px !important; }
+  .slide-noticas .carousel-item .carousel-caption ul li {
+    display: inline-block;
+    margin-right: 20px;
+    list-style-type: none; }
+
+.posts {
+  margin-top: 40px; }
+  .posts .container .item {
+    position: relative; }
+    .posts .container .item img {
+      width: 100%; }
+    .posts .container .item p {
+      position: absolute;
+      bottom: 20px;
+      left: 25px; }
 
 @media screen and (max-width: 1100px) {
   .navbar ul li {
