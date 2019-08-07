@@ -339,6 +339,8 @@ body {
 
 .embed-twitter {
   overflow: hidden; }
+  .embed-twitter a {
+    max-width: 100%; }
 
 .estadisticas-regulatorias {
   position: relative;
@@ -843,15 +845,55 @@ body {
     border-bottom: solid 30px transparent;
     border-top: solid 30px transparent; }
 
-.enlaces-anteriores img {
-  width: 100%; }
-.enlaces-anteriores .txt {
-  margin-left: 35px;
-  height: auto; }
-  .enlaces-anteriores .txt .description {
-    position: absolute;
-    bottom: 0;
-    right: 0; }
+.enlaces-anteriores {
+  margin-bottom: 80px; }
+  .enlaces-anteriores .left-side .row {
+    margin-bottom: 40px;
+    border-bottom: solid 1px #E49C24;
+    padding-bottom: 15px; }
+  .enlaces-anteriores .left-side .row:nth-child(2) {
+    border-bottom: none; }
+  .enlaces-anteriores .left-side img {
+    width: 100%; }
+  .enlaces-anteriores .left-side .txt {
+    height: auto; }
+    .enlaces-anteriores .left-side .txt h3 {
+      font-family: metropolis-b; }
+    .enlaces-anteriores .left-side .txt .description {
+      position: absolute;
+      bottom: 0;
+      right: 0; }
+    .enlaces-anteriores .left-side .txt .description {
+      color: #E49C24; }
+  .enlaces-anteriores .nav-tabs {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    background-color: white; }
+    .enlaces-anteriores .nav-tabs a {
+      width: 100%;
+      text-align: center;
+      padding: 7px;
+      color: #E49C24;
+      border: solid 1px #A8A2A2;
+      border-radius: 0; }
+    .enlaces-anteriores .nav-tabs .active {
+      border-bottom: solid 3px #E49C24; }
+  .enlaces-anteriores .tab-content {
+    background-color: white;
+    padding: 25px; }
+    .enlaces-anteriores .tab-content .row {
+      margin-bottom: 30px; }
+    .enlaces-anteriores .tab-content .left-side {
+      max-width: 500px; }
+    .enlaces-anteriores .tab-content h3 {
+      max-width: 400px;
+      font-family: metropolis-b; }
+    .enlaces-anteriores .tab-content a {
+      float: right;
+      color: #E49C24; }
+    .enlaces-anteriores .tab-content img {
+      width: 100%; }
 
 @media screen and (max-width: 1100px) {
   .navbar ul li {
