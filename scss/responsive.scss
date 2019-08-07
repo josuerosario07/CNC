@@ -191,15 +191,42 @@
 
 .news-section{
     .card-info{
+        @media screen and (max-width:1100px){
+            height: auto;
+
+            &::before{
+                height: 100vh;
+            }
+        }
         @media screen and (max-width:991px){
             &:hover{
                 transform: scale(1.0) !important;
             }
         } 
         @media screen and (max-width:768px){
-            
-        }   
+            flex-flow: column;
+            flex-direction: column;
+            align-items: flex-start;
+            position: relative;
+            .title-button{
+                position: absolute;
+                bottom: 20px;
+                width: 90%;
+                // left: 15px;
+                // right: 15px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .text-field{
+                margin-left: 0px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        }  
     }
 }
 
 
+.organizaciones{
+    
+}
