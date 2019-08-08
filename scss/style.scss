@@ -695,7 +695,9 @@ color: $yellowCnc !important;
             font-size: 35px;
         }
         img{
-            width: 100%;
+            // width: 350px;
+            // height: 350px;
+            // object-fit: cover;
         }
         .btn-alone{
             width: 386px;
@@ -1142,6 +1144,12 @@ color: $yellowCnc !important;
         img{
             width: 100%;
         }
+    }
+}
+
+.busqueda{
+    h3{
+
     }
 }
 
