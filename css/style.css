@@ -14,8 +14,7 @@
 
 body {
   background-color: #EDEDED;
-  font-family: metropolis-l;
-  font-weight: bold; }
+  font-family: metropolis-l; }
 
 .active-txt {
   transform: scale(1.1) !important;
@@ -892,6 +891,12 @@ body {
       color: #E49C24; }
     .enlaces-anteriores .tab-content img {
       width: 100%; }
+
+.busqueda h3 {
+  font-size: 35px;
+  font-family: metropolis-b; }
+.busqueda .tabla-filtro {
+  min-height: 828px; }
 
 @media screen and (max-width: 1100px) {
   .navbar ul li {

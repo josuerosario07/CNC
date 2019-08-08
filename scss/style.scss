@@ -10,7 +10,6 @@
 body{
     background-color: $body;
     font-family: $ml;
-    font-weight: bold;
 }
 .active-txt{
     transform: scale(1.1) !important;
@@ -1149,7 +1148,11 @@ color: $yellowCnc !important;
 
 .busqueda{
     h3{
-
+        font-size: 35px;
+        font-family: $mb;
+    }
+    .tabla-filtro{
+        min-height: 828px;
     }
 }
 
