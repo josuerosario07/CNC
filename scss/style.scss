@@ -1146,6 +1146,10 @@ color: $yellowCnc !important;
     }
 }
 
+.regulatorias-original-section{
+    margin-top: 85px;
+}
+
 .busqueda{
     h3{
         font-size: 35px;
@@ -1153,7 +1157,73 @@ color: $yellowCnc !important;
     }
     .tabla-filtro{
         min-height: 828px;
+        background-color: white;
+        margin-bottom: 60px;
+        padding: 30px;
+        select{
+            background-color: transparent;
+            background-image: none;
+            padding-bottom: 0;
+            option{
+            font-weight: bold;
+        }
+               &::before{
+               box-shadow: none !important;
+           }
+        }
+        .input-group-append{
+            position: absolute;
+            right: 0;
+            z-index:1;
+            height: 100%;
+            label{
+                background-color: $yellowCnc;
+                color: white;
+                height: 100%;
+            }
+        }
+        .buscador{
+            width: 435px;
+            float: right;
+            .input-group{
+                position: relative;
+                height: 100%;
+                .input-group-prepend{
+                    position: absolute;
+                    z-index: 2;
+                    right: 0;
+                    height: 100%;
+                    .input-group-text{
+                        background-color: $yellowCnc;
+                        color: white;
+                    }
+                }
+            }
+            input{
+                border-radius: 0px;
+                border: none;
+                webkit-box-shadow: 0px 15px 16px 0px rgba(0,0,0,0.34);
+                -moz-box-shadow: 0px 15px 16px 0px rgba(0,0,0,0.34);
+                box-shadow: 0px 15px 16px 0px rgba(0,0,0,0.34);
+            }
+        }
+        table{
+            margin-top: 85px;
+            border: none;
+            tbody{
+                width: 100%;
+                .free-td{
+                    float: right;
+                    margin-right: 20px;
+                    img{
+                        margin-right: 20px;
+                    }
+                }
+            }
+        }
     }
 }
+
+
 
 @import 'responsive';

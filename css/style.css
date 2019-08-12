@@ -892,11 +892,64 @@ body {
     .enlaces-anteriores .tab-content img {
       width: 100%; }
 
+.regulatorias-original-section {
+  margin-top: 85px; }
+
 .busqueda h3 {
   font-size: 35px;
   font-family: metropolis-b; }
 .busqueda .tabla-filtro {
-  min-height: 828px; }
+  min-height: 828px;
+  background-color: white;
+  margin-bottom: 60px;
+  padding: 30px; }
+  .busqueda .tabla-filtro select {
+    background-color: transparent;
+    background-image: none;
+    padding-bottom: 0; }
+    .busqueda .tabla-filtro select option {
+      font-weight: bold; }
+    .busqueda .tabla-filtro select::before {
+      box-shadow: none !important; }
+  .busqueda .tabla-filtro .input-group-append {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    height: 100%; }
+    .busqueda .tabla-filtro .input-group-append label {
+      background-color: #E49C24;
+      color: white;
+      height: 100%; }
+  .busqueda .tabla-filtro .buscador {
+    width: 435px;
+    float: right; }
+    .busqueda .tabla-filtro .buscador .input-group {
+      position: relative;
+      height: 100%; }
+      .busqueda .tabla-filtro .buscador .input-group .input-group-prepend {
+        position: absolute;
+        z-index: 2;
+        right: 0;
+        height: 100%; }
+        .busqueda .tabla-filtro .buscador .input-group .input-group-prepend .input-group-text {
+          background-color: #E49C24;
+          color: white; }
+    .busqueda .tabla-filtro .buscador input {
+      border-radius: 0px;
+      border: none;
+      webkit-box-shadow: 0px 15px 16px 0px rgba(0, 0, 0, 0.34);
+      -moz-box-shadow: 0px 15px 16px 0px rgba(0, 0, 0, 0.34);
+      box-shadow: 0px 15px 16px 0px rgba(0, 0, 0, 0.34); }
+  .busqueda .tabla-filtro table {
+    margin-top: 85px;
+    border: none; }
+    .busqueda .tabla-filtro table tbody {
+      width: 100%; }
+      .busqueda .tabla-filtro table tbody .free-td {
+        float: right;
+        margin-right: 20px; }
+        .busqueda .tabla-filtro table tbody .free-td img {
+          margin-right: 20px; }
 
 @media screen and (max-width: 1100px) {
   .navbar ul li {
