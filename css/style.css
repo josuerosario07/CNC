@@ -29,6 +29,21 @@ body {
   .active-txt:hover {
     width: 100% !important; }
 
+.title {
+  display: flex;
+  flex-direction: column;
+  border-left: solid 12px #E49C24;
+  padding-left: 15px;
+  margin-top: 30px; }
+  .title h2 {
+    font-size: 45px;
+    font-family: metropolis-l; }
+  .title .big-version {
+    font-size: 70px;
+    font-family: metropolis-b;
+    color: #E49C24;
+    margin-top: -25px; }
+
 .btn-guest {
   background-color: #E49C24;
   border: none;
@@ -1027,11 +1042,13 @@ body {
 
 .tabla-decreto {
   max-width: 1470px;
+  min-height: 650px;
   display: block;
-  margin: 60px auto;
-  background-color: white; }
+  margin: 60px auto 100px auto; }
   .tabla-decreto .table {
-    width: 100%; }
+    width: 100%;
+    border-bottom: solid 15px #E49C24;
+    background-color: white; }
     .tabla-decreto .table thead {
       background-color: #E49C24;
       min-height: 144px; }
@@ -1039,6 +1056,64 @@ body {
         padding-top: 40px !important;
         padding-bottom: 40px !important;
         border-right: solid 1px white; }
+  .tabla-decreto nav {
+    float: right;
+    margin-top: 40px; }
+    .tabla-decreto nav li {
+      margin: 10px;
+      height: 50px;
+      width: 50px;
+      text-align: center; }
+      .tabla-decreto nav li a {
+        border-radius: 300px !important;
+        background-color: #E49C24;
+        color: white;
+        height: 50px;
+        width: 50px;
+        border: none;
+        font-size: 20px;
+        padding-top: 14px;
+        webkit-box-shadow: 0px 15px 16px 0px rgba(0, 0, 0, 0.34);
+        -moz-box-shadow: 0px 15px 16px 0px rgba(0, 0, 0, 0.34);
+        box-shadow: 0px 15px 16px 0px rgba(0, 0, 0, 0.34); }
+      .tabla-decreto nav li .active {
+        background-color: white;
+        color: #E49C24; }
+
+.consulta-publica-down p {
+  text-align: justify;
+  font-size: 20px; }
+.consulta-publica-down .links {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  flex: 1 1 auto;
+  background-color: white;
+  min-height: 280px;
+  margin-bottom: 80px; }
+  .consulta-publica-down .links .regulaciones {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; }
+  .consulta-publica-down .links .tamites {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; }
+  .consulta-publica-down .links .title {
+    border-left: none; }
+  .consulta-publica-down .links h1 {
+    color: black; }
+  .consulta-publica-down .links .btn {
+    width: 100%;
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: metropolis-l; }
+    .consulta-publica-down .links .btn::before {
+      height: 100%; }
 
 @media screen and (max-width: 1100px) {
   .navbar ul li {
