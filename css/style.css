@@ -959,15 +959,86 @@ body {
       width: 50px;
       text-align: center; }
       .busqueda .tabla-filtro nav li a {
-        border-radius: 300px;
+        border-radius: 300px !important;
         background-color: #E49C24;
         color: white;
         height: 50px;
         width: 50px;
         border: none;
+        font-size: 20px;
+        padding-top: 14px;
         webkit-box-shadow: 0px 15px 16px 0px rgba(0, 0, 0, 0.34);
         -moz-box-shadow: 0px 15px 16px 0px rgba(0, 0, 0, 0.34);
         box-shadow: 0px 15px 16px 0px rgba(0, 0, 0, 0.34); }
+      .busqueda .tabla-filtro nav li .active {
+        background-color: white;
+        color: #E49C24; }
+
+.filtros-decreto {
+  display: block;
+  margin: 0 auto;
+  max-width: 1470px; }
+  .filtros-decreto .row {
+    margin-bottom: 30px; }
+  .filtros-decreto .buscador {
+    height: 74px; }
+    .filtros-decreto .buscador .input-group {
+      position: relative;
+      height: 100%; }
+      .filtros-decreto .buscador .input-group .input-group-prepend {
+        position: absolute;
+        z-index: 5;
+        right: 0;
+        height: 100%;
+        width: 75px; }
+        .filtros-decreto .buscador .input-group .input-group-prepend .input-group-text {
+          width: 100%;
+          font-size: 34px;
+          text-align: center;
+          background-color: #E49C24;
+          color: white; }
+    .filtros-decreto .buscador input {
+      border-radius: 0px;
+      border: none;
+      height: 100%;
+      width: 100%;
+      font-size: 18px;
+      webkit-box-shadow: 0px 15px 16px 0px rgba(0, 0, 0, 0.34);
+      -moz-box-shadow: 0px 15px 16px 0px rgba(0, 0, 0, 0.34);
+      box-shadow: 0px 15px 16px 0px rgba(0, 0, 0, 0.34); }
+  .filtros-decreto .dropdown {
+    margin-top: 30px;
+    height: 74px; }
+    .filtros-decreto .dropdown .btn {
+      width: 100%;
+      height: 100%;
+      border-radius: 0;
+      background-color: white;
+      border: none;
+      border-left: solid 5px #E49C24;
+      color: #A8A2A2;
+      text-align: left !important;
+      font-size: 18px; }
+      .filtros-decreto .dropdown .btn:focus {
+        box-shadow: none; }
+    .filtros-decreto .dropdown .dropdown-menu {
+      width: 100%;
+      transition: 0.5s all ease-in-out; }
+
+.tabla-decreto {
+  max-width: 1470px;
+  display: block;
+  margin: 60px auto;
+  background-color: white; }
+  .tabla-decreto .table {
+    width: 100%; }
+    .tabla-decreto .table thead {
+      background-color: #E49C24;
+      min-height: 144px; }
+      .tabla-decreto .table thead tr th {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+        border-right: solid 1px white; }
 
 @media screen and (max-width: 1100px) {
   .navbar ul li {
