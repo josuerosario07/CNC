@@ -1115,6 +1115,36 @@ body {
     .consulta-publica-down .links .btn::before {
       height: 100%; }
 
+.info-book {
+  max-width: 1470px;
+  margin: 40px auto;
+  background-color: white;
+  webkit-box-shadow: 0px 15px 16px 0px rgba(0, 0, 0, 0.34);
+  -moz-box-shadow: 0px 15px 16px 0px rgba(0, 0, 0, 0.34);
+  box-shadow: 0px 15px 16px 0px rgba(0, 0, 0, 0.34);
+  margin-bottom: 100px; }
+  .info-book .title {
+    background-color: #E49C24;
+    height: auto;
+    padding: 15px; }
+    .info-book .title h1 {
+      color: white;
+      font-size: 35px;
+      margin-top: 0;
+      max-width: 230px;
+      font-family: metropolis-m; }
+  .info-book .enlaces {
+    padding: 40px; }
+    .info-book .enlaces .content {
+      position: relative;
+      min-height: 250px;
+      text-align: justify; }
+    .info-book .enlaces .btn {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      margin-top: 40px; }
+
 @media screen and (max-width: 1100px) {
   .navbar ul li {
     margin: 0 10px; } }
