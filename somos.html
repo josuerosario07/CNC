@@ -21,8 +21,7 @@
             <child-header-up></child-header-up>
         </header>
         <nav class="navbar navbar-expand-lg navbar-light ">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button id="btn-navi" class="navbar-toggler ml-auto" type="button">
             <span class="navbar-toggler-icon"></span>
           </button>
         
@@ -47,7 +46,7 @@
                 <a class="nav-link" href="inventario.html">Inventario Regulatorio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="biblioteca.html">Biblioteca</a>
+                <a class="nav-link" href="biblioteca.html">Biblioteca</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="contacto.html">Contacto</a>
@@ -182,10 +181,6 @@
               <div class="col-sm-12 col-md-12 col-lg-3">
                         <div class="card">
                                 <p class="tag">Inicios</p>
-                                <p class="tag-caption">Lorem ipsum dolor sit amet, consetetur 
-                                        sadipscing elitr, sed diam nonumy eirmod 
-                                        tempor invidunt ut labore et dolore magna 
-                                        aliquyam erat, sed diam</p>
                                 <img src="assets/img/card-img.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                   <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing 
@@ -251,15 +246,35 @@
                     <p>@2019 Todos los Derechos Reservados</p> 
              </div>
        </div>  
+      <div id="menu-r" class="menu-responsive">
+        <div id="optional-close" class="bg-close"></div>
+        <ul>
+          <li><img src="assets/img/logo.svg" alt=""></li>
+          <li><a href="inicio.html">Inicio</a></li>
+          <li><a href="somos.html">Rd+Simple</a></li>
+          <li><a href="noticias.html">Noticias</a></li>
+          <li><a href="regulatoria.html">Planificación Regulatoria</a></li>
+          <li><a href="consulta-publica.html">Consulta Püblica</a></li>
+          <li><a href="inventario.html">Inventario Regulatorio</a></li>
+          <li><a href="biblioteca.html">Biblioteca</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+        <div id="closin" class="close">
+          <i class="fas fa-times"></i>
+        </div>
+      </div>
         
     </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <script src="js/header-up.js"></script>
@@ -269,7 +284,7 @@
     <!-- <script src="js/aos.js"></script> -->
     <script src="js/main.js"></script>
     <script src="js/rellax.min.js">
-     var rellax = new Rellax('.rellax');
+      var rellax = new Rellax('.rellax');
     </script>
     <script src="js/jquery-file.js"></script>
   </body>

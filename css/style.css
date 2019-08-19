@@ -780,10 +780,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-flow: row;
-    align-items: center;
-    position: absolute;
-    bottom: 0;
-    left: 0; }
+    align-items: center; }
     .definition .info-img .txt {
       background-color: #E49C24;
       padding: 44px;
@@ -1227,6 +1224,55 @@ body {
   .contactanos ul li a {
     color: #E49C24; }
 
+.menu-responsive {
+  background: rgba(0, 0, 0, 0.473);
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  z-index: -4;
+  transition: 0.2s all ease-in-out; }
+  .menu-responsive .bg-close {
+    width: 100%;
+    height: 100vh;
+    background: transparent;
+    position: absolute;
+    z-index: -1; }
+  .menu-responsive ul {
+    background-color: #E49C24;
+    width: 250px;
+    margin-left: -251px;
+    height: 100%;
+    position: fixed;
+    z-index: 99999; }
+    .menu-responsive ul li {
+      padding-left: 15px;
+      list-style-type: none;
+      font-family: metropolis-m;
+      margin-bottom: 25px;
+      padding-bottom: 25px; }
+      .menu-responsive ul li a {
+        color: black; }
+      .menu-responsive ul li:hover {
+        border-bottom: solid 3px white;
+        transition: 0.1s all ease-in-out; }
+      .menu-responsive ul li img {
+        margin-top: 60px;
+        width: 80%; }
+  .menu-responsive .close {
+    margin-right: 15px;
+    margin-top: 60px;
+    color: #E49C24;
+    z-index: 99999;
+    opacity: 1;
+    cursor: pointer !important;
+    text-shadow: none;
+    font-family: metropolis-b;
+    font-size: 30px; }
+  .menu-responsive .fas {
+    cursor: pointer !important; }
+
 @font-face {
   font-family: metropolis-b;
   src: url(../font/Metropolis-Black.otf); }
@@ -1565,54 +1611,6 @@ body {
       margin: 0 5px; } }
 
 @media screen and (max-width: 991px) {
-  #app .menu-responsive {
-    background: rgba(0, 0, 0, 0.473);
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    opacity: 0;
-    z-index: -4;
-    transition: 0.2s all ease-in-out; }
-    #app .menu-responsive .bg-close {
-      width: 100%;
-      height: 100vh;
-      background: transparent;
-      position: absolute;
-      z-index: -1; }
-    #app .menu-responsive ul {
-      background-color: #E49C24;
-      width: 250px;
-      margin-left: -251px;
-      height: 100%;
-      position: fixed;
-      z-index: 99999; }
-      #app .menu-responsive ul li {
-        padding-left: 15px;
-        list-style-type: none;
-        font-family: metropolis-m;
-        margin-bottom: 25px;
-        padding-bottom: 25px; }
-        #app .menu-responsive ul li a {
-          color: black; }
-        #app .menu-responsive ul li:hover {
-          border-bottom: solid 3px white;
-          transition: 0.1s all ease-in-out; }
-        #app .menu-responsive ul li img {
-          margin-top: 60px;
-          width: 80%; }
-    #app .menu-responsive .close {
-      margin-right: 15px;
-      margin-top: 60px;
-      color: #E49C24;
-      z-index: 99999;
-      opacity: 1;
-      cursor: pointer !important;
-      text-shadow: none;
-      font-family: metropolis-b;
-      font-size: 30px; }
-    #app .menu-responsive .fas {
-      cursor: pointer !important; }
   #app .active-nav {
     opacity: 1 !important;
     z-index: 9999;
@@ -1620,5 +1618,17 @@ body {
     #app .active-nav ul {
       margin-left: 0px !important;
       transition: 0.2s ease-in-out; } }
+
+@media screen and (max-width: 1200px) {
+  .definition .info-img {
+    flex-direction: column;
+    flex-flow: column; }
+    .definition .info-img img {
+      width: 100%; } }
+@media screen and (max-width: 991px) {
+  .definition .info-img img {
+    display: none; }
+  .definition .card {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */
