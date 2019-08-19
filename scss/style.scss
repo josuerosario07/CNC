@@ -11,6 +11,9 @@ body{
     background-color: $body;
     font-family: $ml;
 }
+#app{
+    position: relative;
+}
 .active-txt{
     transform: scale(1.1) !important;
     z-index: 999 !important;
@@ -859,13 +862,33 @@ color: $yellowCnc !important;
                 
             }
         }
+        .item-0{
+            order:1;
+        }
+        .item-1{
+            order: 2
+        }
+        .item-2{
+            order: 3
+        }
+        .item-3{
+            order: 4;
+        }
+        .item-4{
+            order: 5
+        }
+        .item-5{
+            order: 6
+        }
         .item-5{
             .social{
                 display: flex;
                 flex-flow: row wrap;
                 flex-direction: row !important;
                 justify-content: space-between;
-                margin-top: 30px;
+                img{
+                    margin-top: 15px;
+                }
             }
 
             

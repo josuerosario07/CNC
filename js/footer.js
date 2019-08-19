@@ -1,6 +1,6 @@
-Vue.component('footer-1',{
-    template:  //html 
-    `
+Vue.component("footer-1", {
+  //html
+  template: `
 <div>    
 <div class="container">
 <div class="content">
@@ -36,4 +36,3 @@ Vue.component('footer-1',{
 </div>
 `
 });
-
