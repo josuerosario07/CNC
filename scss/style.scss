@@ -1054,8 +1054,12 @@ color: $yellowCnc !important;
         }
         .item{
             position: relative;
+            min-height: 250px;
             img{
                 width: 100%;
+                height: 100%;
+                object-fit: cover;
+                position: absolute;
             }
             .title{
                 position: absolute;
@@ -1083,7 +1087,7 @@ color: $yellowCnc !important;
     .sides{
         display: flex;
         flex-direction: row;
-        flex-flow: row wrap;
+        flex-flow: row nowrap;
         flex: 1 1 auto;
         width: 100%;
         .n-side{
@@ -1565,7 +1569,7 @@ color: $yellowCnc !important;
       background: rgba(0, 0, 0, 0.473);
       width: 100%;
       height: 100vh;
-      position: absolute;
+      position: fixed;
       top: 0;
       opacity: 0;
       z-index: -4;
@@ -1574,7 +1578,7 @@ color: $yellowCnc !important;
         width: 100%;
         height: 100vh;
         background: transparent;
-        position: absolute;
+        position: fixed;
         z-index: -1;
       }
       ul {

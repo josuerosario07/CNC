@@ -829,9 +829,13 @@ body {
   .posts .container .row {
     margin-top: 40px; }
   .posts .container .item {
-    position: relative; }
+    position: relative;
+    min-height: 250px; }
     .posts .container .item img {
-      width: 100%; }
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute; }
     .posts .container .item .title {
       position: absolute;
       bottom: 10px;
@@ -853,7 +857,7 @@ body {
   .noticias-4 .sides {
     display: flex;
     flex-direction: row;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     flex: 1 1 auto;
     width: 100%; }
     .noticias-4 .sides .n-side {
@@ -1228,7 +1232,7 @@ body {
   background: rgba(0, 0, 0, 0.473);
   width: 100%;
   height: 100vh;
-  position: absolute;
+  position: fixed;
   top: 0;
   opacity: 0;
   z-index: -4;
@@ -1237,7 +1241,7 @@ body {
     width: 100%;
     height: 100vh;
     background: transparent;
-    position: absolute;
+    position: fixed;
     z-index: -1; }
   .menu-responsive ul {
     background-color: #E49C24;
@@ -1630,5 +1634,39 @@ body {
     display: none; }
   .definition .card {
     display: none; } }
+
+.slide-noticas img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+.slide-noticas .lista-slider img {
+  width: auto;
+  height: auto; }
+@media screen and (max-width: 991px) {
+  .slide-noticas .lista-slider img {
+    width: auto !important;
+    height: auto !important; } }
+@media screen and (max-width: 768px) {
+  .slide-noticas .carousel-item .carousel-caption h2 {
+    font-size: 36px !important; } }
+
+@media screen and (max-width: 991px) {
+  .posts .item {
+    margin-bottom: 30px; } }
+
+@media screen and (max-width: 1200px) {
+  .noticias-4 .sides .n-side p {
+    font-size: 25px; } }
+@media screen and (max-width: 991px) {
+  .noticias-4 .sides {
+    flex-wrap: wrap; }
+  .noticias-4 .n-side {
+    width: 50%;
+    min-height: 604px !important; }
+    .noticias-4 .n-side:nth-last-child(-n+2) {
+      display: none; } }
+@media screen and (max-width: 500px) {
+  .noticias-4 .n-side {
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
