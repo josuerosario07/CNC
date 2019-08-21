@@ -207,6 +207,12 @@ color: $yellowCnc !important;
 
 .carousel-item{
     height: 600px !important;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
+    }
     .carousel-caption {
         h2{
             font-family: $mb;
@@ -1258,7 +1264,7 @@ color: $yellowCnc !important;
             }
         }
         .buscador{
-            width: 435px;
+            max-width: 435px;
             float: right;
             .input-group{
                 position: relative;
@@ -1297,9 +1303,7 @@ color: $yellowCnc !important;
             }
         }
         nav{
-            position: absolute;
-            right: 80px;
-            margin-top: 40px;
+            margin-top: 80px;
             li{
                 margin: 10px;
                 height: 50px;
@@ -1332,6 +1336,7 @@ color: $yellowCnc !important;
     display: block;
     margin: 0 auto;
      max-width: 1470px;
+     padding: 30px;
      .row{
          margin-bottom: 30px;
      }
@@ -1395,6 +1400,7 @@ color: $yellowCnc !important;
     min-height: 650px;
     display: block;
      margin: 60px auto 100px auto;
+     padding: 30px;
     .table{
         width: 100%;
         border-bottom: solid 15px $yellowCnc;
@@ -1622,6 +1628,22 @@ color: $yellowCnc !important;
       .fas {
         cursor: pointer !important;
       }
+    }
+
+    .slider-secundario{
+        .carousel-item{
+            height: 239px !important;  
+            h2{
+                font-size: 48px !important;
+                max-width: 300px;
+            }          
+        }
+        .slider-control-cont{
+                display: none !important;
+            }
+            .slider-indicator-cont{
+                display: none;
+            }
     }
 
 

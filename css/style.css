@@ -172,6 +172,10 @@ body {
 
 .carousel-item {
   height: 600px !important; }
+  .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
   .carousel-item .carousel-caption {
     position: absolute;
     top: 80px;
@@ -986,7 +990,7 @@ body {
         color: white;
         height: 100%; }
     .busqueda .tabla-filtro .buscador {
-      width: 435px;
+      max-width: 435px;
       float: right; }
       .busqueda .tabla-filtro .buscador .input-group {
         position: relative;
@@ -1016,9 +1020,7 @@ body {
           .busqueda .tabla-filtro table tbody .free-td img {
             margin-right: 20px; }
     .busqueda .tabla-filtro nav {
-      position: absolute;
-      right: 80px;
-      margin-top: 40px; }
+      margin-top: 80px; }
       .busqueda .tabla-filtro nav li {
         margin: 10px;
         height: 50px;
@@ -1043,7 +1045,8 @@ body {
 .filtros-decreto {
   display: block;
   margin: 0 auto;
-  max-width: 1470px; }
+  max-width: 1470px;
+  padding: 30px; }
   .filtros-decreto .row {
     margin-bottom: 30px; }
   .filtros-decreto .buscador {
@@ -1095,7 +1098,8 @@ body {
   max-width: 1470px;
   min-height: 650px;
   display: block;
-  margin: 60px auto 100px auto; }
+  margin: 60px auto 100px auto;
+  padding: 30px; }
   .tabla-decreto .table {
     width: 100%;
     border-bottom: solid 15px #E49C24;
@@ -1277,6 +1281,16 @@ body {
     font-size: 30px; }
   .menu-responsive .fas {
     cursor: pointer !important; }
+
+.slider-secundario .carousel-item {
+  height: 239px !important; }
+  .slider-secundario .carousel-item h2 {
+    font-size: 48px !important;
+    max-width: 300px; }
+.slider-secundario .slider-control-cont {
+  display: none !important; }
+.slider-secundario .slider-indicator-cont {
+  display: none; }
 
 @font-face {
   font-family: metropolis-b;
@@ -1673,5 +1687,35 @@ body {
 @media screen and (max-width: 991px) {
   .organizaciones {
     margin-top: 100px; } }
+
+@media screen and (max-width: 500px) {
+  .busqueda .tabla-filtro nav li {
+    height: 30px;
+    width: 30px; }
+  .busqueda .tabla-filtro nav li a {
+    height: 30px;
+    width: 30px;
+    padding-top: 9px;
+    font-size: 12px; } }
+@media screen and (max-width: 350px) {
+  .busqueda .tabla-filtro nav li {
+    margin: 6px; } }
+
+@media screen and (max-width: 991px) {
+  .consulta-publica-down .links {
+    display: none; } }
+
+@media screen and (max-width: 500px) {
+  .tabla-decreto nav li {
+    height: 30px;
+    width: 30px; }
+  .tabla-decreto nav li a {
+    height: 30px;
+    width: 30px;
+    padding-top: 9px;
+    font-size: 12px; } }
+@media screen and (max-width: 350px) {
+  .tabla-decreto nav li {
+    margin: 6px; } }
 
 /*# sourceMappingURL=style.css.map */

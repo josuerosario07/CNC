@@ -619,3 +619,51 @@
     margin-top: 100px;
   }
 }
+
+.busqueda {
+  @media screen and (max-width: 500px){
+    .tabla-filtro nav li{
+       height: 30px;
+      width: 30px;
+    }
+    .tabla-filtro nav li a{
+      height: 30px;
+      width: 30px;
+      padding-top: 9px;
+      font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 350px){
+    .tabla-filtro nav li{
+      margin: 6px;
+    }
+  }
+}
+.consulta-publica-down{
+  @media screen and (max-width: 991px){
+    .links{
+      display:none;
+    }
+  }
+}
+
+.tabla-decreto {
+   @media screen and (max-width: 500px){
+    nav li{
+       height: 30px;
+      width: 30px;
+    }
+     nav li a{
+      height: 30px;
+      width: 30px;
+      padding-top: 9px;
+      font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 350px){
+    nav li{
+      margin: 6px;
+    }
+  }
+
+}

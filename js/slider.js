@@ -1,6 +1,6 @@
-Vue.component('slider-wils',{
+Vue.component('slider-wils', {
     template:  //html 
-    `
+        `
     <div>
     
     <div id="sliderPrincipal" class="carousel slide" data-ride="carousel">
@@ -16,7 +16,7 @@ Vue.component('slider-wils',{
             </div>
         <div class="carousel-inner">
         <div  class="carousel-item active">
-                <img class="d-block w-100" src="assets/img/gallerys/cover.png" alt="Titulo">
+                <img class="" src="assets/img/gallerys/cover.png" alt="Titulo">
                 <div class="carousel-caption d-md-block">
                     <h2>Que es 
                     RD + Simple? </h2>
@@ -31,7 +31,7 @@ Vue.component('slider-wils',{
                 </div>
             </div>
             <div  class="carousel-item">
-                <img class="d-block w-100" src="assets/img/1.jpg" alt="Titulo">
+                <img class="" src="assets/img/1.jpg" alt="Titulo">
                 <div class="carousel-caption d-md-block">
                     <h2>Que es 
                     RD + Simple? </h2>
@@ -46,7 +46,7 @@ Vue.component('slider-wils',{
                 </div>
             </div>
             <div  class="carousel-item">
-                <img class="d-block w-100" src="assets/img/2.jpg" alt="Titulo">
+                <img class="" src="assets/img/2.jpg" alt="Titulo">
                 <div class="carousel-caption d-md-block">
                     <h2>Que es 
                     RD + Simple? </h2>
@@ -61,7 +61,7 @@ Vue.component('slider-wils',{
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/3.jpg" alt="Titulo">
+                <img class="" src="assets/img/3.jpg" alt="Titulo">
                 <div class="carousel-caption d-md-block">
                     <h2>Que es 
                     RD + Simple? </h2>
@@ -76,7 +76,7 @@ Vue.component('slider-wils',{
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/4.jpg" alt="Titulo">
+                <img class="" src="assets/img/4.jpg" alt="Titulo">
                 <div class="carousel-caption d-md-block">
                     <h2>Que es 
                     RD + Simple? </h2>
@@ -91,7 +91,7 @@ Vue.component('slider-wils',{
                 </div>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/5.jpg" alt="Titulo">
+                <img class="" src="assets/img/5.jpg" alt="Titulo">
                 <div class="carousel-caption d-md-block">
                     <h2>Que es 
                     RD + Simple? </h2>
@@ -116,6 +116,6 @@ Vue.component('slider-wils',{
 `
 });
 
-  
+
 
 

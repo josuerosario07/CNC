@@ -394,4 +394,34 @@
   .organizaciones {
     margin-top: 100px; } }
 
+@media screen and (max-width: 500px) {
+  .busqueda .tabla-filtro nav li {
+    height: 30px;
+    width: 30px; }
+  .busqueda .tabla-filtro nav li a {
+    height: 30px;
+    width: 30px;
+    padding-top: 9px;
+    font-size: 12px; } }
+@media screen and (max-width: 350px) {
+  .busqueda .tabla-filtro nav li {
+    margin: 6px; } }
+
+@media screen and (max-width: 991px) {
+  .consulta-publica-down .links {
+    display: none; } }
+
+@media screen and (max-width: 500px) {
+  .tabla-decreto nav li {
+    height: 30px;
+    width: 30px; }
+  .tabla-decreto nav li a {
+    height: 30px;
+    width: 30px;
+    padding-top: 9px;
+    font-size: 12px; } }
+@media screen and (max-width: 350px) {
+  .tabla-decreto nav li {
+    margin: 6px; } }
+
 /*# sourceMappingURL=responsive.css.map */
