@@ -1227,14 +1227,13 @@ color: $yellowCnc !important;
 }
 
 .busqueda{
+    height: auto !important;
     h3{
         font-size: 35px;
         font-family: $mb;
     }
     .tabla-filtro{
-        min-height: 828px;
         background-color: white;
-        margin-bottom: 60px;
         padding: 30px;
         select{
             background-color: transparent;
@@ -1298,7 +1297,8 @@ color: $yellowCnc !important;
             }
         }
         nav{
-            float: right;
+            position: absolute;
+            right: 80px;
             margin-top: 40px;
             li{
                 margin: 10px;

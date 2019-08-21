@@ -390,4 +390,8 @@
   .noticias-4 .n-side {
     width: 100%; } }
 
+@media screen and (max-width: 991px) {
+  .organizaciones {
+    margin-top: 100px; } }
+
 /*# sourceMappingURL=responsive.css.map */
