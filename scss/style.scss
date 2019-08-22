@@ -1644,8 +1644,13 @@ color: $yellowCnc !important;
             .slider-indicator-cont{
                 display: none;
             }
+
+            @media screen and(max-width:991) {
+                height: 239px !important;  
+            }
     }
 
 
 
 @import 'responsive';
+

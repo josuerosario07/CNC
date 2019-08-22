@@ -51,7 +51,7 @@
 
 .carousel-item {
   @media screen and (max-width: 991px) {
-    min-height: 500px !important;
+    min-height: 500px;
     img {
       width: 100% !important;
       height: 100% !important;
@@ -59,7 +59,7 @@
     }
   }
   @media screen and (max-width: 768px) {
-    min-height: 380px !important;
+    min-height: 380px;
     img {
       width: 100% !important;
       height: 100% !important;
@@ -667,3 +667,4 @@
   }
 
 }
+

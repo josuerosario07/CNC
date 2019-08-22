@@ -40,14 +40,14 @@
 
 @media screen and (max-width: 991px) {
   .carousel-item {
-    min-height: 500px !important; }
+    min-height: 500px; }
     .carousel-item img {
       width: 100% !important;
       height: 100% !important;
       object-fit: cover !important; } }
 @media screen and (max-width: 768px) {
   .carousel-item {
-    min-height: 380px !important; }
+    min-height: 380px; }
     .carousel-item img {
       width: 100% !important;
       height: 100% !important;
