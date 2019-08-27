@@ -171,7 +171,10 @@ body {
       border-bottom: solid 3px white; }
 
 .carousel-item {
-  height: 600px !important; }
+  height: 600px; }
+  @media screen and (max-width: 768px) {
+    .carousel-item {
+      height: 380px !important; } }
   .carousel-item img {
     width: 100%;
     height: 100%;
@@ -455,7 +458,7 @@ body {
       -webkit-box-shadow: 11px 13px 21px -1px rgba(0, 0, 0, 0.41);
       -moz-box-shadow: 11px 13px 21px -1px rgba(0, 0, 0, 0.41);
       box-shadow: 11px 13px 21px -1px rgba(0, 0, 0, 0.41);
-      transition: all 0.3s !important;
+      transition: all 0.2s !important;
       z-index: 999;
       color: white; }
       .news-section .card-info:hover .btn {
@@ -1355,43 +1358,34 @@ body {
   margin-right: 15px; }
 
 @media screen and (max-width: 991px) {
-  .carousel-item {
-    min-height: 500px; }
-    .carousel-item img {
-      width: 100% !important;
-      height: 100% !important;
-      object-fit: cover !important; } }
-@media screen and (max-width: 768px) {
-  .carousel-item {
-    min-height: 380px; }
-    .carousel-item img {
-      width: 100% !important;
-      height: 100% !important;
-      object-fit: cover !important; } }
+  .sliderPrincipal .carousel-inner .carousel-item img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important; } }
 
 @media screen and (max-width: 768px) {
-  .carousel-caption {
+  .carousel-item .carousel-caption {
     top: 30px; }
-    .carousel-caption h2 {
-      font-size: 56px; } }
+    .carousel-item .carousel-caption h2 {
+      font-size: 45px; }
+    .carousel-item .carousel-caption .btn {
+      height: 36px;
+      font-size: 17px; } }
 @media screen and (max-width: 600px) {
-  .carousel-caption {
+  .carousel-item .carousel-caption {
     margin-left: 40px !important;
     top: 20px; }
-    .carousel-caption h2 {
+    .carousel-item .carousel-caption h2 {
       font-size: 48px; }
-    .carousel-caption p {
+    .carousel-item .carousel-caption p {
       font-size: 14px; } }
 @media screen and (max-width: 425px) {
-  .carousel-caption {
+  .carousel-item .carousel-caption {
     top: 20px;
     margin-left: 20px !important; }
-    .carousel-caption h2 {
+    .carousel-item .carousel-caption h2 {
       font-size: 30px !important; }
-    .carousel-caption .btn {
-      height: 39px;
-      font-size: 15px; }
-    .carousel-caption p {
+    .carousel-item .carousel-caption p {
       font-size: 14px; } }
 
 @media screen and (max-width: 425px) {

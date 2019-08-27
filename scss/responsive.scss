@@ -49,17 +49,8 @@
   }
 }
 
-.carousel-item {
+.sliderPrincipal .carousel-inner .carousel-item{
   @media screen and (max-width: 991px) {
-    min-height: 500px;
-    img {
-      width: 100% !important;
-      height: 100% !important;
-      object-fit: cover !important;
-    }
-  }
-  @media screen and (max-width: 768px) {
-    min-height: 380px;
     img {
       width: 100% !important;
       height: 100% !important;
@@ -67,12 +58,16 @@
     }
   }
 }
-.carousel-caption {
+.carousel-item  .carousel-caption {
   @media screen and (max-width: 768px) {
     h2 {
-      font-size: 56px;
+      font-size: 45px;
     }
     top: 30px;
+     .btn {
+      height: 36px;
+      font-size: 17px;
+    }
   }
   @media screen and (max-width: 600px) {
     margin-left: 40px !important;
@@ -89,10 +84,6 @@
     margin-left: 20px !important;
     h2 {
       font-size: 30px !important;
-    }
-    .btn {
-      height: 39px;
-      font-size: 15px;
     }
     p {
       font-size: 14px;
