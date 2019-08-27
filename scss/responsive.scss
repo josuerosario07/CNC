@@ -377,20 +377,20 @@
   }
 }
 .parallax {
-  @media screen and (max-width: 1300px) {
-    .all-side {
-      .sides {
-        padding: 30px;
-        width: 50%;
-        h4 {
-          font-size: 34px;
-        }
-        h3 {
-          font-size: 56px;
-        }
-      }
-    }
-  }
+  // @media screen and (max-width: 1300px) {
+  //   .all-side {
+  //     .sides {
+  //       padding: 30px;
+  //       width: 50%;
+  //       h4 {
+  //         font-size: 34px;
+  //       }
+  //       h3 {
+  //         font-size: 56px;
+  //       }
+  //     }
+  //   }
+  // }
   @media screen and (max-width: 991px) {
     display: none;
   }

@@ -93,3 +93,15 @@ function closeNav() {
   var menuD = document.getElementById("menu-r");
   menuD.classList.remove("active-nav");
 }
+
+let scrollNav = window.scrollY
+const header = document.querySelector("nav")
+const header_height = header.offsetHeight
+const newNav = () => header.classList.add("new-nav")
+const oldNav = () => header.classList.remove("new-nav")
+window.addEventListener('scroll', function () {
+  scrollNav = window.scrollY;
+  if (scrollNav >= header_height) { newNav() }
+  else { oldNav() }
+})
+

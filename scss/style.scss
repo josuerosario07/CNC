@@ -36,14 +36,14 @@ body{
         padding-left: 15px;
         margin-top: 30px;
         h2{
-            font-size: 45px;
+            font-size: 27px;
             font-family: $ml;
         }
         .big-version{
-            font-size: 70px;
+            font-size: 35px;
             font-family: $mb;
             color: $yellowCnc;
-            margin-top: -25px;
+            // margin-top: -25px;
         }
     }
 // BTN GUEST
@@ -52,7 +52,7 @@ body{
     border: none;
     border-radius: 0;
     font-weight: bold;
-    color: black;
+    color: white;
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     -webkit-backface-visibility: hidden;
@@ -152,6 +152,7 @@ color: $yellowCnc !important;
     background-color: $yellowCnc;
     width: 100%;
     padding: 0px;
+    transition: 0.2s all ease-in-out !important;
     ul{
         margin: 0 auto;
         margin-bottom: -2px;
@@ -188,12 +189,12 @@ color: $yellowCnc !important;
               right: 0;
             }
             a{
-                color: black !important;
+                color: white !important;
                 transition: 0.2s;
                 font-family: $ml;
                 padding-bottom: 7px;
                 &:hover{
-                    color: white !important;
+                    color: black !important;
                 }
             }
         }
@@ -385,6 +386,7 @@ color: $yellowCnc !important;
     .news-card{
         img{
             width: 100%;
+            
         }
         h3{
             margin-top: 15px;
@@ -461,14 +463,14 @@ color: $yellowCnc !important;
         padding-left: 15px;
         margin-top: 30px;
         h2{
-            font-size: 45px;
+            font-size: 27px;
             font-family: $ml;
         }
         .big-version{
-            font-size: 70px;
+            font-size: 35px;
             font-family: $mb;
             color: $yellowCnc;
-            margin-top: -25px;
+            // margin-top: -25px;
         }
     }
     .news-card{
@@ -476,6 +478,8 @@ color: $yellowCnc !important;
          position: relative;
         img{
             width: 100%;
+            height: 400px;
+            object-fit: cover;
         }
         p{
             margin-top: 30px;
@@ -548,6 +552,7 @@ color: $yellowCnc !important;
     }
     &:hover:before{
             right: 0;
+            
         }
         &:hover{
         // transform: scale(1.1) !important;
@@ -557,8 +562,9 @@ color: $yellowCnc !important;
         -webkit-box-shadow: 11px 13px 21px -1px rgba(0,0,0,0.41);
         -moz-box-shadow: 11px 13px 21px -1px rgba(0,0,0,0.41);
         box-shadow: 11px 13px 21px -1px rgba(0,0,0,0.41);
-        transition: all 0.5s !important;
+        transition: all 0.2s !important;
         z-index: 999;
+        color: white;
         .btn{
             color:$yellowCnc;
             background-color: white;
@@ -622,6 +628,9 @@ color: $yellowCnc !important;
        justify-content: space-between;
        border-bottom: solid 2px white;
        margin-bottom: 30px;
+       h1{
+           color: white;
+       }
        .btn{
            width: 170px;
            height: 40px;
@@ -679,6 +688,7 @@ color: $yellowCnc !important;
           transform: scaleY(1);
           p{
             transition: 0.1s;
+            
         }
         }
         &:hover{
@@ -706,8 +716,10 @@ color: $yellowCnc !important;
     }
     .card-info-2{
         background-color: transparent;
+        color: white;
         .title-box{
             align-self: flex-start;
+            color: white;
             .top{
                 font-family: $ml;
             }
@@ -721,6 +733,7 @@ color: $yellowCnc !important;
                 color: white;
                 font-family: $mb;
             }
+            
         }
     }
 }
@@ -948,14 +961,15 @@ color: $yellowCnc !important;
         background-attachment: fixed;
         background-position: center;
         background-size: cover;
+        width: 50%;
         h4{
-            font-size: 41px;
+            font-size: 25px;
             font-family: $ml;
             color: white;
         }
         h3{
             font-family: $mb;
-            font-size: 71px;
+            font-size: 30px;
             color: white;
         }
         p{
@@ -1098,12 +1112,12 @@ color: $yellowCnc !important;
         width: 100%;
         .n-side{
             position: relative;
-            min-height: 795px;
+            min-height: 495px;
             flex: 1 1 auto;
             overflow: hidden;
             .content{
                 padding-left: 35px;
-                margin-top: 60%;
+                margin-top: 20%;
                 position: relative;
                 z-index: 2;
             }
@@ -1341,7 +1355,7 @@ color: $yellowCnc !important;
          margin-bottom: 30px;
      }
             .buscador{
-                height: 74px;
+                height: 45px;
             .input-group{
                 position: relative;
                 height: 100%;
@@ -1458,7 +1472,6 @@ color: $yellowCnc !important;
         flex-direction: row;
         flex-flow: row;
         flex: 1 1 auto;
-        background-color: white;
         min-height: 280px;
         margin-bottom: 80px;
         .regulaciones{
@@ -1467,6 +1480,9 @@ color: $yellowCnc !important;
             align-items: center;
             justify-content: center;
             width: 100%;
+            background-color: white;
+            margin: 3px
+
         }
         .tamites{
             display: flex;
@@ -1474,6 +1490,8 @@ color: $yellowCnc !important;
             align-items: center;
             justify-content: center;
             width: 100%;
+            background-color: white;
+            margin: 3px
         }
         .title{
              border-left: none;
@@ -1648,6 +1666,18 @@ color: $yellowCnc !important;
             @media screen and(max-width:991) {
                 height: 239px !important;  
             }
+    }
+
+
+
+    .new-nav{
+        position: fixed !important;
+        top: 0;
+        transition: 0.2s all ease-in-out !important;
+        z-index: 99999;
+        -webkit-box-shadow: 1px 20px 31px -17px rgba(0,0,0,0.49);
+        -moz-box-shadow: 1px 20px 31px -17px rgba(0,0,0,0.49);
+        box-shadow: 1px 20px 31px -17px rgba(0,0,0,0.49);
     }
 
 

@@ -258,14 +258,6 @@
   .about-cnc .left-side .btn {
     width: 100%; } }
 
-@media screen and (max-width: 1300px) {
-  .parallax .all-side .sides {
-    padding: 30px;
-    width: 50%; }
-    .parallax .all-side .sides h4 {
-      font-size: 34px; }
-    .parallax .all-side .sides h3 {
-      font-size: 56px; } }
 @media screen and (max-width: 991px) {
   .parallax {
     display: none; } }
